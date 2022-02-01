@@ -1,6 +1,21 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
 body {
   margin: 0;
   font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+.mainContainer {
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+  margin-top: 80px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px #e3e3e3;
+  border: 1px solid #e3e3e3;
 }
 
 .header {
@@ -8,6 +23,8 @@ body {
   padding: 15px 30px;
   background-color: #7847ff;
   color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .header h1 {
@@ -16,7 +33,7 @@ body {
 
 .menu {
   list-style: none;
-  padding-left: 30px;
+  padding: 5px 30px 10px 30px;
 }
 
 .menu a {
