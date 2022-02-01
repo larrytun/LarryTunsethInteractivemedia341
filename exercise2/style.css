@@ -1,0 +1,80 @@
+body {
+  padding: 30px;
+  max-width: 1200px;
+  margin: auto;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  background-color: #fffff5;
+}
+
+h1 {
+  font-size: 45px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 30px;
+  font-size: 27px;
+  text-align: center;
+}
+
+.intro {
+  margin: 6px 0 20px 0;
+  text-align: center;
+}
+
+.menu {
+  list-style: none;
+  padding-left: 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.menu a {
+  text-decoration: none;
+  font-weight: bold;
+  color: darkred;
+  letter-spacing: 1px;
+}
+
+.parentlist {
+  list-style: none;
+  padding-left: 0;
+}
+
+.childlist {
+  padding-left: 0;
+  list-style: none;
+}
+
+.childlist li {
+  background-color: white;
+  border: 1px solid black;
+  margin-bottom: 30px;
+}
+
+.childlist ul {
+  list-style-position: inside;
+}
+
+.childlist ul li {
+  border: none;
+  padding-right: 20px;
+}
+
+.childlist p {
+  display: inline-block;
+  padding: 10px 30px;
+  line-height: 40px;
+}
+
+.childlist strong {
+  font-size: 20px;
+  margin-right: 6px;
+}
+
+.childlist img {
+  width: 100%;
+  padding: 0;
+  margin-bottom: -9px;
+}
