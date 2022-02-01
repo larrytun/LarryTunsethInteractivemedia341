@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+.header {
+  width: 100%;
+  padding: 15px 30px;
+  background-color: #7847ff;
+  color: white;
+}
+
+.header h1 {
+  margin: 10px 0 0 0;
+}
+
+.menu {
+  list-style: none;
+  padding-left: 30px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #7847ff;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.menu a:visited {
+  color: #956f96
+}
