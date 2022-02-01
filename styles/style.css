@@ -6,6 +6,8 @@
 body {
   margin: 0;
   font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  background-image: url("../img/rad.jpg");
+  background-size: cover;
 }
 
 .mainContainer {
@@ -16,6 +18,7 @@ body {
   border-radius: 10px;
   box-shadow: 4px 4px 4px #e3e3e3;
   border: 1px solid #e3e3e3;
+  background-color: white;
 }
 
 .header {
@@ -31,6 +34,10 @@ body {
   margin: 10px 0 0 0;
 }
 
+.header h2 {
+  margin-top: 3px;
+}
+
 .menu {
   list-style: none;
   padding: 5px 30px 10px 30px;
@@ -44,5 +51,9 @@ body {
 }
 
 .menu a:visited {
-  color: #956f96
+  color: #72508c;
+}
+
+.menu a:hover {
+  color: #ff00e6;
 }
