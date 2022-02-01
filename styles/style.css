@@ -8,6 +8,7 @@ body {
   font-family: 'IBM Plex Sans Thai Looped', sans-serif;
   background-image: url("../img/rad.jpg");
   background-size: cover;
+  padding: 0 22px;
 }
 
 .mainContainer {
@@ -28,6 +29,7 @@ body {
   color: white;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  margin-bottom: 22px;
 }
 
 .header h1 {
@@ -41,6 +43,11 @@ body {
 .menu {
   list-style: none;
   padding: 5px 30px 10px 30px;
+}
+
+.menu h3 {
+  margin: 0;
+  border-bottom: 1px solid black;
 }
 
 .menu a {
