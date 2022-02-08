@@ -1,0 +1,14 @@
+.page {
+  max-width: 350px;
+  margin: 30px;
+  border: 1px solid black;
+  padding: 15px 0 0 10px;
+}
+
+.page hr {
+  margin: 0;
+}
+
+.page p {
+  margin: 3px 0 0;
+}
