@@ -1,0 +1,24 @@
+body {
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  background-color: grey;
+}
+
+.mainContainer {
+  max-width: 850px;
+  margin: auto;
+  background-color: white;
+}
+
+.leftColumn {
+  display: inline-block;
+  width: 248px;
+}
+
+.rightColumn {
+  display: inline-block;
+  width: 598px;
+}
+
+.tweetContainer {
+  border: 1px solid grey;
+}
