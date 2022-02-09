@@ -1,6 +1,6 @@
 body {
   font-family: 'IBM Plex Sans Thai Looped', sans-serif;
-  background-color: grey;
+  margin: 0;
 }
 
 .mainContainer {
@@ -12,6 +12,44 @@ body {
 .leftColumn {
   display: inline-block;
   width: 248px;
+  vertical-align: top;
+  padding-top: 30px;
+}
+
+.menuItem {
+  display: block;
+  padding-top: 8px;
+}
+
+.menuItem .icon {
+  width: 26px;
+  height: 26px;
+  display: inline-block;
+  background-color: grey;
+}
+
+.menuItem p {
+  display: inline-block;
+  font-size: 20px;
+  vertical-align: super;
+  margin: 0 0 0 20px;
+}
+
+.logo {
+  width: 28px;
+  height: 23px;
+  background-color: #0094FF;
+  margin-bottom: 20px;
+}
+
+.leftColumn .send {
+  width: 225px;
+  height: 42px;
+  position: relative;
+  margin-top: 15px;
+  border-radius: 26px;
+  font-size: 17px;
+  padding-top: 9px;
 }
 
 .rightColumn {
@@ -19,6 +57,133 @@ body {
   width: 598px;
 }
 
+.entryContainer, .tweetContainer {
+  padding: 16px;
+  border: 1px solid #eff3f4;
+}
+
+.entryHead {
+  margin: 0 0 16px 0;
+  font-size: 20px;
+}
+
+.avatar {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+  background-color: grey;
+}
+
+.tweetEnter {
+  display: inline-block;
+  margin: 4px 0 0 16px;
+  vertical-align: top;
+  color: #0f1419;
+  font-size: 20px;
+}
+
+.actions {
+  padding-left: 59px;
+  position: relative;
+}
+
+.actions .icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 28px 6px 0 6px;
+  background-color: grey;
+}
+
+.send {
+  width: 76px;
+  height: 36px;
+  padding-top: 3px;
+  text-align: center;
+  color: white;
+  border-radius: 18px;
+  background-color: #0094FF;
+  font-size: 15px;
+  display: inline-block;
+  vertical-align: bottom;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
 .tweetContainer {
-  border: 1px solid grey;
+  margin-top: -1px;
+  position: relative;
+}
+
+.options {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.tweetContent {
+  display: inline-block;
+  vertical-align: top
+}
+
+.name {
+  font-size: 15px;
+  display: inline-block;
+  margin: 0 0 0 16px;
+  vertical-align: top;
+}
+
+.checkmark {
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  background-color: #0094FF;
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px 5px 0;
+}
+
+.date {
+  font-size: 15px;
+  display: inline-block;
+  margin: 0;
+  vertical-align: top;
+  color: #536471;
+}
+
+.tweetBody {
+  padding-left: 16px;
+  max-width: 496px;
+  font-size: 15px;
+  line-height: 20px;
+  margin-top: -8px;
+}
+
+.featuredImg {
+  width: 496px;
+  height: 280px;
+  background-color: grey;
+  border-radius: 40px;
+  margin-bottom: 8px;
+}
+
+.shareOptions {
+  padding-left: 16px;
+}
+
+.shareOptions * {
+  display: inline-block;
+}
+
+.shareOptions .icon {
+  width: 19px;
+  height: 19px;
+  background-color: grey;
+  vertical-align: bottom;
+}
+
+.shareOptions .data {
+  margin: 0 80px 0 12px;
 }
