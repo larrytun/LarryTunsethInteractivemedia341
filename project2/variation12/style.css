@@ -1,0 +1,11 @@
+.marqueeContainer1 {
+  transform: rotate(0deg);
+}
+
+.marqueeContainer2 {
+  transform: rotate(90deg);
+}
+
+.marqueeContainer3 {
+  transform: rotate(180deg);
+}
