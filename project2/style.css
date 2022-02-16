@@ -1,3 +1,60 @@
-body {
+.homePage {
   font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+
+/* for navigation on every page */
+
+.variationBody {
+  padding-left: 83px;
+  padding-top: 20px;
+}
+
+.navButton {
+  position: absolute;
+  width: 50px;
+  height: 100px;
+  padding: 15px 5px 0;
+  text-align: center;
+  vertical-align: bottom;
+  border: 1px solid #cdcdcd;
+  border-radius: 7px;
+  background-color: white;
+  box-shadow: 1px 1px 4px #7a7a7a;
+  font-family: cursive;
+  opacity: .68;
+}
+
+.navButton:hover {
+  opacity: 1;
+}
+
+.navButton:active {
+  box-shadow: inset 1px 1px 4px #7a7a7a;
+}
+
+.navButton img {
+  width: 100%;
+}
+
+.nextButton {
+  top: calc(50% - 50px);
+  right: 10px;
+}
+
+.nextButton img {
+  transform: scaleX(-1);
+}
+
+.nextButton:active {
+  right: 9px;
+}
+
+.previousButton {
+  top: calc(50% - 50px);
+  left: 10px;
+}
+
+.previousButton:active {
+  left: 11px;
 }

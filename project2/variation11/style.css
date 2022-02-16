@@ -1,8 +1,8 @@
 .page {
   max-width: 350px;
   margin: 30px;
-  border: 1px solid black;
   padding: 15px 0 0 10px;
+  border: 1px solid black;
 }
 
 .page hr {
@@ -11,4 +11,56 @@
 
 .page p {
   margin: 3px 0 0;
+}
+
+
+/* for navigation on every page */
+
+.page {
+  margin: auto;
+}
+
+.navButton {
+  position: absolute;
+  width: 50px;
+  height: 100px;
+  padding: 15px 5px 0;
+  text-align: center;
+  vertical-align: bottom;
+  border: 1px solid #cdcdcd;
+  border-radius: 7px;
+  background-color: white;
+  box-shadow: 1px 1px 4px #7a7a7a;
+  font-family: cursive;
+  opacity: .8;
+}
+
+.navButton:hover {
+  opacity: 1;
+}
+
+.navButton:active {
+  box-shadow: inset 1px 1px 4px #7a7a7a;
+}
+
+.navButton img {
+  width: 100%;
+}
+
+.nextButton {
+  top: calc(50% - 50px);
+  right: 10px;
+}
+
+.nextButton:active {
+  right: 9px;
+}
+
+.previousButton {
+  top: calc(50% - 50px);
+  left: 10px;
+}
+
+.previousButton:active {
+  left: 11px;
 }
