@@ -1,0 +1,43 @@
+.circleContainer {
+  margin: 300px auto;
+  width: 500px;
+  position: relative;
+}
+
+.circleContainer span {
+  height: 0vw;
+  display: block;
+  position: absolute;
+  width: 20px;
+  left: 0;
+  top: 0;
+  transform-origin: bottom center;
+  -webkit-animation:grow 10s linear infinite;
+  -moz-animation:grow 10s linear infinite;
+  animation:grow 10s linear infinite;
+}
+
+@-moz-keyframes grow {
+  0% { width: 0vw;
+  }
+  50% { width: 28vw;
+  }
+  100% { width: 0vw;
+  }
+}
+@-webkit-keyframes grow {
+  0% { width: 0vw;
+  }
+  50% { width: 28vw;
+  }
+  100% { width: 0vw;
+  }
+}
+@keyframes grow {
+  0% { width: 0vw;
+  }
+  50% { width: 28vw;
+  }
+  100% { width: 0vw;
+  }
+}
