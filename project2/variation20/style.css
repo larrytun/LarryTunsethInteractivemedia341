@@ -1,0 +1,100 @@
+.circleContainer {
+  margin: auto auto auto calc(50% - 50px);
+  width: 500px;
+  position: absolute;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.circleContainer span {
+  display: block;
+  position: absolute;
+  width: 20px;
+  left: 0;
+  top: 0;
+  transform-origin: bottom center;
+}
+
+.container01 {
+  height: 1000px;
+  width: 20px;
+  -webkit-animation:spin 10s linear infinite;
+  -moz-animation:spin 10s linear infinite;
+  animation:spin 10s linear infinite;
+}
+
+.container01 span {
+  height: 500px;
+  font-size: 16px;
+}
+
+.container02 {
+  height: 1000px;
+  width: 20px;
+  -webkit-animation:spin 10s linear infinite;
+  -moz-animation:spin 10s linear infinite;
+  animation:spin 10s linear infinite;
+  animation-direction: reverse;
+}
+
+.container02 span {
+  margin-top: 50px;
+  height: 450px;
+  font-size: 12px;
+}
+
+.container03 {
+  height: 1000px;
+  width: 20px;
+  -webkit-animation:spin 10s linear infinite;
+  -moz-animation:spin 10s linear infinite;
+  animation:spin 10s linear infinite;
+}
+
+.container03 span {
+  margin-top: 100px;
+  height: 400px;
+  font-size: 8px;
+}
+
+.container04 {
+  height: 1000px;
+  width: 20px;
+  -webkit-animation:spin 10s linear infinite;
+  -moz-animation:spin 10s linear infinite;
+  animation:spin 10s linear infinite;
+  animation-direction: reverse;
+}
+
+.container04 span {
+  margin-top: 150px;
+  height: 350px;
+  font-size: 4px;
+}
+
+.container05 {
+  height: 1000px;
+  width: 20px;
+  -webkit-animation:spin 10s linear infinite;
+  -moz-animation:spin 10s linear infinite;
+  animation:spin 10s linear infinite;
+}
+
+.container05 span {
+  margin-top: 200px;
+  height: 300px;
+  font-size: 2px;
+}
+
+@-moz-keyframes spin {
+  100% { -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% { -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% { -webkit-transform: rotate(360deg); transform:rotate(360deg);
+  }
+}

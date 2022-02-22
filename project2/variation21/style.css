@@ -1,0 +1,12 @@
+.column {
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.wordWrap label {
+  opacity: 0;
+}
+
+.wordWrap input:checked + label {
+  opacity: 1;
+}
