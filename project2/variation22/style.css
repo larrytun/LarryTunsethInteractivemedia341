@@ -12,32 +12,50 @@
   left: 0;
   top: 0;
   transform-origin: bottom center;
-  -webkit-animation:grow 10s linear infinite;
-  -moz-animation:grow 10s linear infinite;
-  animation:grow 10s linear infinite;
+  -webkit-animation:grow 11s linear infinite;
+  -moz-animation:grow 11s linear infinite;
+  animation:grow 11s linear infinite;
 }
 
 @-moz-keyframes grow {
-  0% { width: 0vw;
+  0% {
+    width: 0vw;
+    color: darkgreen;
   }
-  50% { width: 28vw;
+  50% {
+    width: 40vw;
+    color: red;
   }
-  100% { width: 0vw;
+  100% {
+    width: 0vw;
+    color: darkgreen;
   }
 }
 @-webkit-keyframes grow {
-  0% { width: 0vw;
+  0% {
+    width: 0vw;
+    color: darkgreen;
   }
-  50% { width: 28vw;
+  50% {
+    width: 40vw;
+    color: red;
   }
-  100% { width: 0vw;
+  100% {
+    width: 0vw;
+    color: darkgreen;
   }
 }
 @keyframes grow {
-  0% { width: 0vw;
+  0% {
+    width: 0vw;
+    color: darkgreen;
   }
-  50% { width: 28vw;
+  50% {
+    width: 40vw;
+    color: red;
   }
-  100% { width: 0vw;
+  100% {
+    width: 0vw;
+    color: darkgreen;
   }
 }

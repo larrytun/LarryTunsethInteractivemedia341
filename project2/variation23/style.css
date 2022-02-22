@@ -1,0 +1,273 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: monospace;
+}
+
+p {
+  font-size: 18px;
+  transform-origin: bottom center;
+}
+
+p span {
+  -webkit-animation:glow 900ms linear infinite;
+  -moz-animation:glow 900ms linear infinite;
+  animation:glow 900ms linear infinite;
+}
+
+.a {
+  animation-delay: 0ms;
+}
+
+.b {
+  animation-delay: 250ms;
+}
+
+.c {
+  animation-delay: 500ms;
+}
+
+.d {
+  animation-delay: 750ms;
+}
+
+.e {
+  animation-delay: 1000ms;
+}
+
+.f {
+  animation-delay: 1250ms;
+}
+
+.g {
+  animation-delay: 1500ms;
+}
+
+.h {
+  animation-delay: 1750ms;
+}
+
+.i {
+  animation-delay: 2000ms;
+}
+
+.j {
+  animation-delay: 2250ms;
+}
+
+.k {
+  animation-delay: 2500ms;
+}
+.l {
+  animation-delay: 3000ms;
+}
+
+.m {
+  animation-delay: 3250ms;
+}
+
+.n {
+  animation-delay: 3500ms;
+}
+
+.o {
+  animation-delay: 3750ms;
+}
+
+.p {
+  animation-delay: 4100ms;
+}
+
+.q {
+  animation-delay: 4450ms;
+}
+
+.r {
+  animation-delay: 4900ms;
+}
+
+.s {
+  animation-delay: 5550ms;
+}
+
+.t {
+  animation-delay: 6000ms;
+}
+
+.u {
+  animation-delay: 6250ms;
+}
+
+.v {
+  animation-delay: 6500ms;
+}
+
+.w {
+  animation-delay: 6750ms;
+}
+
+.x {
+  animation-delay: 7000ms;
+}
+
+.y {
+  animation-delay: 7250ms;
+}
+
+.z {
+  animation-delay: 7500ms;
+}
+
+.aa {
+  animation-delay: 8725ms;
+}
+
+.bb {
+  animation-delay: 9000ms;
+}
+
+.cc {
+  animation-delay: 9250ms;
+}
+
+.dd {
+  animation-delay: 9500ms;
+}
+
+.ee {
+  animation-delay: 9725ms;
+}
+
+.ff {
+  animation-delay: 10000ms;
+}
+
+.gg {
+  animation-delay: 10250ms;
+}
+.hh {
+  animation-delay: 10500ms;
+}
+
+.ii {
+  animation-delay: 10725ms;
+}
+
+.jj {
+  animation-delay: 11000ms;
+}
+
+.kk {
+  animation-delay: 11250ms;
+}
+
+.ll {
+  animation-delay: 11500ms;
+}
+
+.mm {
+  animation-delay: 11750ms;
+}
+
+.nn {
+  animation-delay: 12000ms;
+}
+
+.oo {
+  animation-delay: 12250ms;
+}
+
+.pp {
+  animation-delay: 12500ms;
+}
+
+.qq {
+  animation-delay: 12750ms;
+}
+
+.rr {
+  animation-delay: 13000ms;
+}
+
+.ss {
+  animation-delay: 13250ms;
+}
+
+.tt {
+  animation-delay: 13500ms;
+}
+
+.uu {
+  animation-delay: 13750ms;
+}
+
+.vv {
+  animation-delay: 14000ms;
+}
+
+.ww {
+  animation-delay: 14250ms;
+}
+
+.xx {
+  animation-delay: 14500ms;
+}
+
+.yy {
+  animation-delay: 14750ms;
+}
+
+.zz {
+  animation-delay: 15000ms;
+}
+
+.last {
+  animation-delay: 15250ms;
+}
+
+@-moz-keyframes glow {
+  0% {
+    text-shadow: 0px 0px 11px black;
+  }
+  50% {
+    text-shadow: 0px 3px 11px white;
+  }
+  80% {
+    text-shadow: 0px 3px 11px white;
+  }
+  100% {
+    text-shadow: 0px 0px 11px black;
+  }
+}
+@-webkit-keyframes glow {
+  0% {
+    text-shadow: 0px 0px 11px black;
+  }
+  50% {
+    text-shadow: 0px 3px 11px white;
+  }
+  80% {
+    text-shadow: 0px 3px 11px white;
+  }
+  100% {
+    text-shadow: 0px 0px 11px black;
+  }
+}
+@keyframes glow {
+  0% {
+    text-shadow: 0px 0px 11px black;
+    opacity: .75;
+  }
+  50% {
+    text-shadow: 0px 3px 11px white;
+    opacity: 1;
+  }
+  80% {
+    text-shadow: 0px 3px 11px white;
+    opacity: 1;
+  }
+  100% {
+    text-shadow: 0px 0px 11px black;
+    opacity: .75;
+  }
+}

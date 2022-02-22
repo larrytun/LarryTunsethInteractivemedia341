@@ -1,14 +1,21 @@
-.circleContainer {
-  margin: auto auto auto calc(50% - 50px);
-  width: 500px;
-  position: relative;
+.square {
+  width: 50px;
+  height: 20px;
+  background-color: black;
+  display: inline-flex;
+  margin-left: -50px;
 }
 
-.circleContainer span {
+.line {
   display: block;
-  position: absolute;
-  width: 20px;
-  left: 0;
-  top: 0;
-  transform-origin: bottom center;
+}
+
+marquee p {
+  display: inline-block;
+}
+
+marquee {
+  width: 50px;
+  overflow: hidden;
+  text-align: left;
 }
