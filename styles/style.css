@@ -9,6 +9,8 @@ body {
   background-image: url("../img/trees.JPEG");
   background-size: cover;
   padding: 0 22px;
+  height: 93vh;
+  width: 92vw;
 }
 
 .mainContainer {
