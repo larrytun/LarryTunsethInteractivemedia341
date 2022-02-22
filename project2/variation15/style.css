@@ -1,0 +1,15 @@
+.circleContainer {
+  margin: auto auto auto calc(50% - 50px);
+  width: 500px;
+  position: relative;
+}
+
+.circleContainer span {
+  height: 25vw;
+  display: block;
+  position: absolute;
+  width: 20px;
+  left: 0;
+  top: 0;
+  transform-origin: bottom center;
+}

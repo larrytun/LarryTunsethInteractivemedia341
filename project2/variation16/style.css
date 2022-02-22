@@ -1,3 +1,11 @@
+.marqueeContainer {
+  height: 100vh;
+}
+
+.marqueeContainer p {
+  font-size: 400px;
+}
+
 .charm {
   font-family: 'Charm', cursive;
 }
