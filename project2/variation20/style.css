@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+.marqueeWrap {
+  width: 60vw;
+  height: 80vh;
+  max-height: 94vh;
+  padding-top: 1vh;
+  border: 1px solid black;
+  margin: 40px 0 0 calc(50% - 30vw);
+}
+
+.space {
+  border: none;
+  background-color: none;
+  box-shadow: none;
+}
+
+p {
+  font-family: sans-serif;
+  margin-right: 20px;
+  border: 1px solid gray;
+  border-radius: 2px;
+  background-color: white;
+  text-align: center;
+  vertical-align: middle;
+  padding: 15px;
+  display: inline-block;
+  box-shadow: 1px 1px 4px gray;
+}
